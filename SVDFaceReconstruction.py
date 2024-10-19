@@ -5,7 +5,7 @@ from numpy.linalg import pinv
 
 def LoadYaleFaces(Start_from_person=0, Number_of_People=5):
     FacesMatrix = None
-    base_path = r'C:\Users\Flick\Desktop\uni\rom\asignment2\part 3\YaleFaces'  # The base directory (change to the path to the yalefaces folder included in part 3 folder)
+    base_path = r'C:\Users\Flick\Desktop\uni\rom\asignment2\part 3\YaleFaces'  # The base directory 
     for i in range(Start_from_person, Number_of_People):
         if i < 9:
             path = f'{base_path}\\yaleB0{i+1}\\'
